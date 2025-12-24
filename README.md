@@ -41,10 +41,10 @@ These tools are chosen to reflect real-world development standards and to prepar
 ---
 
 ## 📁 Project Structure
+```
 node-app/
 ├── app.js
 ├── package.json
 ├── Dockerfile
 └── README.md
-The repository follows a clean and minimal folder structure:
-
+```
