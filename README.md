@@ -48,3 +48,27 @@ node-app/
 ├── Dockerfile
 └── README.md
 ```
+
+## Run The Docker Container
+
+If You Want To Run This Programme So Follow This Steps:
+
+Step 1:
+```
+npm i express
+``
+Step 2:
+
+Take The Pulling Docker in This Site. You Can Change The Docker Version
+https://hub.docker.com/r/papiagamers/node-app
+
+Step 3:
+
+Make Sure Open Your Command prompt Terminal by Pressing *cmd* . When Its Done Copy The Pull Command and Paste into Your Cmd Prompt and Then pull the docker With This Command in The Step 4.
+
+Step 4:
+```
+docker run -p8080:8080 papiagamers/node-app:latest
+````
+
+Thats All. When Done open this Site To See The Command: http://localhost:8080
